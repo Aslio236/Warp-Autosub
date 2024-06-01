@@ -3,12 +3,11 @@
     $getList = file_get_contents('https://raw.githubusercontent.com/3yed82/warp-lP/main/warp.json?v1.'.time());
     $strings = explode("\n", $getList);
 
-    $warp = "//profile-title: mansor427\n";
+    $warp = "//profile-title: base64:44CY4oC0yrfhtYPKs+G1luKAt+OAmfCThILwk4aD\n";
     $warp .= "//profile-update-interval: 24\n";
     $warp .= "//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=0\n";
-    $warp .= "//support-url: https://github.com/mansor427\n";
     $warp .= "//profile-web-page-url: https://github.com/mansor427\n\n";
-    $warp .= "warp://auto#🇮🇷 WARP &&detour=warp://auto#🇩🇪 WARP";
+    $warp .= "warp://auto#🇮🇷 ÐΛɌ₭ᑎΞ𐒡𐒡 &&detour=warp://auto#🇩🇪 ÐΛɌ₭ᑎΞ𐒡𐒡";
 
    $i = 1;
 $pattern = '/^warp:\/\/.*$/';
@@ -31,6 +30,6 @@ foreach ($strings as $val) {
     }
 }
 
-$warp .= "\n" . $first_ip . '#Warp 🇮🇷 IP&&detour=' . $second_ip . '#Warp 🇩🇪 IP';
+$warp .= "\n" . $first_ip . '#ÐΛɌ₭ᑎΞ𐒡𐒡 🇮🇷 IP&&detour=' . $second_ip . '#ÐΛɌ₭ᑎΞ𐒡𐒡 🇩🇪 IP';
 
-    file_put_contents("export/warp", $warp);
+    file_put_contents("subwarp/warp", $warp);
