@@ -32,7 +32,7 @@ jobs:
           php-version: '8.0'
 
       - name: Execute PHP script
-        run: php crawler.php
+        run: php warpauto.php
 
       - name: Configure Git
         run: |
@@ -42,7 +42,7 @@ jobs:
       - name: Commit changes
         run: |
           git add -A
-          git diff --cached --quiet || git commit -m "💡 Automatic update - $(TZ='Asia/Tehran' date '+%Y-%m-%d %H:%M')"
+          git diff --cached --quiet || git commit -m "🤖Auto update💀 - $(TZ='Asia/Tehran' date '+%Y-%m-%d %H:%M')"
 
       - name: Push changes
         uses: ad-m/github-push-action@master
