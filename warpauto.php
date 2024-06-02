@@ -8,7 +8,7 @@
     $warp .= "//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=0\n";
     $warp .= "//profile-web-page-url: https://github.com/mansor427\n\n";
     $warp .= "warp://auto#@mansor427🇮🇷 &&detour=warp://auto#ÐΛɌ₭ᑎΞ𐒡𐒡🇩🇪";
-    
+    $warp .= "\n" "warp://@auto/?ifp=5-10#🇮🇷@mansor427-IR &&detour=warp://@auto/?ifp=5-10#🇩🇪 ÐΛɌ₭ᑎΞ𐒡𐒡-DE";
    $i = 1;
 $pattern = '/^warp:\/\/.*$/';
 $first_ip = '';
@@ -31,6 +31,5 @@ foreach ($strings as $val) {
 }
 
 $warp .= "\n" . $first_ip . '#@mansor427 🇮🇷 IP&&detour=' . $second_ip . '#ÐΛɌ₭ᑎΞ𐒡𐒡 🇩🇪 IP';
-$warp .= "warp://@auto/?ifp=5-10#🇮🇷@mansor427-IR &&detour=warp://@auto/?ifp=5-10#🇩🇪 ÐΛɌ₭ᑎΞ𐒡𐒡-DE";
 
     file_put_contents("subwarp/warp", $warp);
