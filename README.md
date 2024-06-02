@@ -2,5 +2,5 @@
 #### لینک سابسکریپشن زیر را کپی کنید =😁=> در برنامه Hiddify next جایگذاری کنید
 
 ```
-https://raw.githubusercontent.com/mansor427/Warp-Autosub/main/subwarp/warp
+https://raw.githubusercontent.com/Aslio236/Warp-Autosub/main/subwarp/warp
 ```
