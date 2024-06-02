@@ -1,6 +1,6 @@
 <?php
 
-    $getList = file_get_contents('https://raw.githubusercontent.com/3yed82/warp-lP/main/warp.json?v1.'.time());
+    $getList = file_get_contents('https://raw.githubusercontent.com/mansor427/Warp-ip-auto/main/warp.json?v1.'.time());
     $strings = explode("\n", $getList);
 
     $warp = "//profile-title: base64:44CY4oC0yrfhtYPKs+G1luKAt+OAmfCThILwk4aD\n";
